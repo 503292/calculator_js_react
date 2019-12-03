@@ -23,8 +23,8 @@ class App extends Component {
       (lastChar === "+" ||
         lastChar === "-" ||
         lastChar === "*" ||
-        lastChar === "/") &&
-      (val === "+" || val === "-" || val === "*" || val === "/")
+        lastChar === ".") &&
+      (val === "+" || val === "-" || val === "*" || val === "/" || val === ".")
     ) {
       let sliceStr = input.slice(0, -1);
 
