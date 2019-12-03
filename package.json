@@ -4,11 +4,11 @@
   "private": true,
   "description": "info from the README, or an empty string ",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "mathjs": "^5.1.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4",
-    "gh-pages": "^2.1.1"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,11 +19,6 @@
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -39,5 +34,5 @@
   },
   "author": "503292@ukr.net",
   "license": "ISC",
-  "homepage": "https://503292.github.io/............"
+  "homepage": "https://503292.github.io/calculator_js_react"
 }
