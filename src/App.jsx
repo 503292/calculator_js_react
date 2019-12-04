@@ -23,6 +23,7 @@ class App extends Component {
       (lastChar === "+" ||
         lastChar === "-" ||
         lastChar === "*" ||
+        lastChar === "/" ||
         lastChar === ".") &&
       (val === "+" || val === "-" || val === "*" || val === "/" || val === ".")
     ) {
